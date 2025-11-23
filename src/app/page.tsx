@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -112,8 +112,6 @@ export default function LandingPage() {
             }
           ]}
           className="py-20"
-          titleClassName="text-4xl font-bold"
-          descriptionClassName="text-lg text-foreground/80"
         />
       </div>
 
@@ -202,8 +200,6 @@ export default function LandingPage() {
             }
           ]}
           className="py-20"
-          titleClassName="text-4xl font-bold"
-          descriptionClassName="text-lg text-foreground/80"
         />
       </div>
 
@@ -265,8 +261,6 @@ export default function LandingPage() {
             }
           ]}
           className="py-20"
-          titleClassName="text-4xl font-bold"
-          descriptionClassName="text-lg text-foreground/80"
         />
       </div>
 
